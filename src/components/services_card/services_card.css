@@ -1,0 +1,28 @@
+.services_card{
+    background-color: black;
+    color:white;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    
+    padding:2rem;
+    padding-left: 5rem;
+
+    
+    border-radius: .5rem;
+}
+.services_card h2{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.services_card:hover{
+    background-color: white;
+
+    color:black;
+    
+}
+.services_card p{
+    font-size: 1.2rem;
+}

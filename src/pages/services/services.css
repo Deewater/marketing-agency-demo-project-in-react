@@ -1,0 +1,48 @@
+.services_div{
+    position: relative;
+    z-index: 0;
+    height: 100%;
+    background-color: rgb(219, 217, 217);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.services_div img{
+    width:100%;
+    
+}
+.services_body{
+    text-align: center;
+    padding:3rem
+}
+.services_body h1{
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+.services_body p{
+    font-size: 1.5rem;
+}
+li{
+    list-style:disc;
+    padding:1rem
+}
+   
+
+.services_cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+   
+    padding:2rem
+}
+
+
+@media  screen and (max-width:908px){
+    .services_cards{
+        grid-template-columns: 1fr;
+        
+    }
+    .services_body p{
+        font-size:1.2rem
+    }
+}
+    
